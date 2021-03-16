@@ -4,6 +4,14 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.container{
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    padding-left: 70px;
+}
+
+/* Header */
 #title{
     display: inline-block;
     line-height: 70px;
@@ -12,4 +20,31 @@
 }
 #logo{
     margin: 10px 0px 10px 20px;
+}
+
+/* Main */
+main{
+    background-color: #F6F8F9;
+    padding-top: 50px;
+}
+.top{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+#add-task{
+    display: inline-block;
+    background-color: #47ADF1;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+
+}
+#add-section{
+    display: inline-block;
+    border: solid lightgray 1px;
+    padding: 10px;
+    border-radius: 10px;
+    color: lightgray;
 }
